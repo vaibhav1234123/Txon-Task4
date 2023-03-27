@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="P.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <nav>
+            <img src="logo.png" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            <i class="fas fa-bars"></i>
+        </nav>
+
+        <div class="detel">
+            <p>Web Developer</p>
+            <h1>I'm Vaibhav <span>Miskin</span></h1>
+            <p>This is my official Portfolio website.
+            </p>
+            <a href="#"><span>DOWNLOAD CV</span> </a>
+        </div>
+        <div class="images">
+            <img src="img/shape.png" class="shape">
+            <img src="" class="girl">
+        </div>
+    </div>
+    <!-- -----------------------about--------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Img" width="150px" height="250px">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I’m a web developer who loves to make beautiful things.
+
+                        I love building websites that are easy to use and can be accessed by anyone. I also love making my clients happy with their site’s performance, so they can see it on any device they have.
+                        
+                        I’ve worked in various places around the world.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">EDUCATION</p>
+                        <p class="tab-links" onclick="opentab('skills')">SKILLS</p>
+                        <p class="tab-links" onclick="opentab('experience')">EXPERIENCE</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>2023 - pursuing</span><br>BCA Scinece</li>
+                            <li><span>2021 - completed</span><br>12th State Board</li>
+                            <li><span>2019 - completed</span><br>10th</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Canva Designing</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS Apps</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023</span><br>TXON intern</li>
+                            <li><span>2023</span><br>The Spark intern</li>
+                            <li><span>2023</span><br>Bharat intern</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------------------portfolio------------------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-titles">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYy4yMAWtm9m0Yz4ppgi1PlBj10VIqbydJeQ&usqp=CAU">
+                    <div class="layer">
+                        <h3>Canva Flyer</h3>
+                        <p>A Canva flyer is a digital flyer created using the online design platform, Canva.
+                             Flyers are a popular marketing tool as they
+                             are an easy and effective way to communicate information about a product,
+                              service, event, or brand.</p><a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWCGHLI2hDy6zqu6o-o0o9a2CC-w6_0cLRsg&usqp=CAU">
+                    <div class="layer">
+                        <h3>Web Page</h3>
+                        <p>A web page is a single hypertext document available on World Wide Web (WWW).
+                             It is composed of HTML elements and displayed on the user's browser such as Mozilla, Firefox, Chrome, etc.
+                              It is also referred to as "Page." </p><a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://cdn.igadgetsworld.com/news/wp-content/uploads/2019/06/Google-Play-Music-1255x840.jpg">
+                    <div class="layer">
+                        <h3>Landing Page</h3>
+                        <p>n digital marketing, a landing page is a standalone web page, created specifically for a marketing or advertising campaign.
+                             It’s where a visitor “lands” after they click on a link in an email, 
+                             or ads from Google, Bing, YouTube, Facebook, Instagram, Twitter, or similar places on the web.
+                        </p><a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- -------------------------------------contact--------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>   vaibhavmiskin@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>   7796711813</p>
+                    <div class="social-icon">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+            
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" placeholder="First name"><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname" placeholder="Last name"><br>
+                        <label for="email">E-mail:</label><br>
+                        <input type="text" id="email" name="email" placeholder="Your mail Id"><br>
+                        <label for="text">Feedback:</label><br>
+                        <textarea name="msg" cols="10" rows="5" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn1">SUBMIT</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-sharp fa-solid fa-copyright"></i> Diksha. Made with <i class="fa-solid fa-heart"></i> by XYZ  </p>
+        </div>
+    </div>
+</body>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+</html>
